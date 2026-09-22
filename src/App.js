@@ -6,8 +6,8 @@ function App() {
 
   return (
     <div className="container">
-      <h1 className="title">Hello World! 👋</h1>
-      <p className="subtitle">Chào mừng bạn đến với ứng dụng React đầu tiên</p>
+      <h1 className="title">Hello World! </h1>
+      <p className="subtitle">Đây là ứng dụng React đầu tiên</p>
       
       <div className="badge-container">
         <span className="badge">React.js</span>
@@ -19,12 +19,10 @@ function App() {
       </p>
 
       <button className="btn" onClick={() => setCount(count + 1)}>
-        Tăng số lượng 🚀
+        Tăng số lượng 
       </button>
 
-      <div className="footer-text">
-        Deployed with ❤️ on Vercel
-      </div>
+      
     </div>
   );
 }
